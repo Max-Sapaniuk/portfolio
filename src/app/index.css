@@ -11,6 +11,9 @@
   --font-poppins: var(--poppins);
   --font-preahvihear: var(--preahvihear);
 
+  --color-header: var(--header);
+
+  /* Default shadcn/ui colors */
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -53,9 +56,12 @@
   --poppins: "Poppins", sans-serif;
   --preahvihear: "Preahvihear", sans-serif;
 
+  --header: #1a0b2e;
+
+  /* Default shadcn/ui colors */
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
+  --background: #11071f;
+  --foreground: #ffffff;
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
@@ -88,6 +94,7 @@
 }
 
 .dark {
+  /* Default shadcn/ui colors */
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
   --card: oklch(0.205 0 0);
